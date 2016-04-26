@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <calloutViewStyle
+         titleTextColor="#484848"
+         titleTextSize = "30" 
+         titleTextStyle = "1"
+         titleTextTypeFace = "0"
+         backgroundColor="#ffffff" 
+         backgroundAlpha="255" 
+         frameColor="#000000" 
+         flat="true" 
+         cornerCurve="20"
+         anchor="5" />
+
+</resources>

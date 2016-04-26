@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- basemap menu items -->
+    <string name="WORLD_STREET_MAP">http://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer</string>
+    <string name="WORLD_TOPO_MAP">http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer</string>
+    <string name="WORLD_NATGEO_MAP">http://services.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer</string>
+    <string name="OCEAN_BASEMAP">http://services.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer</string>
+    <string name="featureServiceURL">https://services1.arcgis.com/SIYkiqjmENweC50g/arcgis/rest/services/CrimeDataSD/FeatureServer/0</string>
+    <!-- geocode service -->
+    <string name="geocode_url">http://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer</string>
+    <!-- crime type menu items -->
+    <string name="crimeType">Filter Crime</string>
+    <string name="subCrimeType">Pick a crime type</string>
+    <string name="arsonCrime">Arson</string>
+    <string name="burglaryCrime">Burglary</string>
+    <string name="Exit">EXIT</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="Home">Home Location</string>
+    <string name="measure">Measure Distance</string>
+    <string name="route">Find Routes</string>
+    <string name="StreetMapMenu">Street Map</string>
+    <string name="TopoMenu">World Topo</string>
+    <string name="NatGeoMenu">NatGeo Map</string>
+	<string name="OceanMenu">Ocean Basemap</string>
+    <string name="app_name">Crime Map</string>
+    <string name="ShowDirectionsActivity">Route Directions List</string>
+    <string name="route_label">Press and hold map to route to that point\nClick segments for more information</string>
+    <string name="locationSearch">Find Location</string>
+    <string name="basemapType">Basemap Type</string>
+    <string name="GPSdesc">Find current location</string>
+    <string name="spinTitle">Query Customer Data:</string>
+    
+    <string-array name="arson_subtype">
+        <item >Arson of property</item>
+        <item >Arson inhabited structure or property</item>
+        
+    </string-array>
+    <string-array name="burglary_subtype">
+        <item >Commericial burgalry</item>
+        <item >Residential Burglary</item>
+    </string-array>
+</resources>

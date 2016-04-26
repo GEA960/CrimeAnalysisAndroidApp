@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="QueryParameters">
+        <item>Query Parameters</item>
+        <item>All Crimes</item>
+        <item>ARSON</item>
+        <item>BURGLARY</item>
+    </string-array>
+    
+</resources>

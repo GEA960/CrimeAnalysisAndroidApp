@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+      xmlns:hmkcode="http://schemas.android.com/apk/res-auto">
+    
+    <item android:id="@+id/location_search"
+          android:icon="@drawable/location_search"
+          android:title="@string/locationSearch"
+          hmkcode:showAsAction="always" 
+          hmkcode:actionViewClass="android.widget.SearchView"/>
+    <item android:id="@+id/basemap_type"
+        android:icon="@drawable/location_map"
+        hmkcode:showAsAction="ifRoom|withText"
+        android:title="@string/basemapType">
+        <menu>
+	    <item
+	        android:id="@+id/World_Street_Map"
+	        android:title="@string/StreetMapMenu"/>
+	    <item
+	        android:id="@+id/World_Topo"
+	        android:title="@string/TopoMenu"/>
+	    <item
+	        android:id="@+id/NatGeo"
+	        android:title="@string/NatGeoMenu"/>
+	    <item
+	        android:id="@+id/Ocean_Basemap"
+	        android:title="@string/OceanMenu"/>
+	    </menu>
+    </item>
+
+    <item android:id="@+id/crime_type"
+        android:icon="@drawable/filter_crime_type"
+        hmkcode:showAsAction="ifRoom|withText"
+        android:title="@string/crimeType">
+        <menu>
+	    <item
+	        android:id="@+id/Arson"
+	        android:title="@string/arsonCrime"/>
+	    <item
+	        android:id="@+id/Burglary"
+	        android:title="@string/burglaryCrime"/>
+	    </menu>
+    </item>
+    <item
+        android:id="@+id/action_measure"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/measure"/>
+    <item
+        android:id="@+id/action_route"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/route"/>
+    <item android:id="@+id/Home_Location"
+        android:icon="@drawable/current_location_found"
+        hmkcode:showAsAction="never"
+        android:title="@string/Home" /> 
+    <item android:id="@+id/Exit_App"
+        hmkcode:showAsAction="never"
+        android:title="@string/Exit"/>
+</menu>
